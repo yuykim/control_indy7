@@ -1,0 +1,41 @@
+enabled: true
+
+project:
+  name: "Control Indy7"
+  slug: "control-indy7"
+  description: "Keyboard teleoperation system for controlling a Neuromeka Indy7 robot arm with Python and Pygame."
+  category: "Robotics"
+  tags:
+    - robotics
+    - indy7
+    - teleoperation
+    - python
+  repo_url: "https://github.com/yuykim/control_indy7"
+  intro:
+    title: "Control Indy7"
+    summary: "A Python/Pygame teleoperation project for controlling the Indy7 robot arm through keyboard input."
+    publish_on_first_import: true
+
+diary:
+  path: "dev_diary"
+  assets_path: "dev_diary/assets"
+
+history:
+  path: "HISTORY.md"
+
+publish:
+  mode: "auto"
+  target_blog_repo: "yuykim/yuykim-dev-diary"
+  branch: "main"
+
+privacy:
+  default_visibility: "public"
+  exclude_patterns:
+    - ".env"
+    - "secrets/"
+    - "*.key"
+    - "*.pem"
+    - "private/"
+    - "credentials/"
+    - "*.db"
+    - "*.sqlite"
